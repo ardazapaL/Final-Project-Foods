@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "804694925143",
+    "firebase_url": "https://ladraapp.firebaseio.com",
+    "project_id": "ladraapp",
+    "storage_bucket": "ladraapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804694925143:android:bcd5e237bbf8ac5b",
+        "android_client_info": {
+          "package_name": "com.example.ladraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804694925143-jlb8ek5vsrrjfrbbevg5v29pho2ob10e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ladraapp",
+            "certificate_hash": "219308417dc6e7dd8cb1792e549c2aedc72ce4cd"
+          }
+        },
+        {
+          "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaPYoY6Y-l83sesnjvY6Ub63KWcbPAgE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804694925143:android:4105d8801f358702d66812",
+        "android_client_info": {
+          "package_name": "com.example.project_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaPYoY6Y-l83sesnjvY6Ub63KWcbPAgE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804694925143:android:940e656cedfe3847d66812",
+        "android_client_info": {
+          "package_name": "com.example.videofoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaPYoY6Y-l83sesnjvY6Ub63KWcbPAgE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804694925143-nl42jgrlmdigh7ffgmejk7hhr20tnrid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
