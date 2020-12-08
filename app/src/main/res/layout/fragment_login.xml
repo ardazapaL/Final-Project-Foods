@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <!-- Email Label -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_email"
+        app:boxBackgroundColor="@color/white"
+        app:boxBackgroundMode="filled"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textColorHint="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:autofillHints="@string/prompt_fill_email"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Label -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textColorHint="@color/grey"
+        app:boxBackgroundColor="@color/white"
+        app:boxBackgroundMode="filled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_email">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/password"
+            android:autofillHints="@string/prompt_fill_password"
+            android:inputType="textPassword"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_primary"
+        android:elevation="10dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/layout_email"
+        app:layout_constraintStart_toStartOf="@+id/layout_email"
+        app:layout_constraintTop_toBottomOf="@+id/layout_pass"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
